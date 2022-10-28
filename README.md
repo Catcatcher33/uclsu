@@ -2,7 +2,7 @@
 Because downloading the Student Union membership list and manually copy pasting everything into your drive just for a simple newsletter is a massive pain.
 
 ## Usage
-1. Create OAuth 2.0 credentials in the [Google Cloud API Console](https://developers.google.com/identity/protocols/oauth2).
+1. Create OAuth 2.0 credentials in the [Google Cloud API Console](https://developers.google.com/identity/protocols/oauth2) and insert them into a credentials.json and token.json file.
 2. Create a .env file with the necessary [sheet data](https://developers.google.com/sheets/api/guides/concepts) in the same directory:
 ```python
 SPREADSHEET_ID = # spreadsheet ID (str)
